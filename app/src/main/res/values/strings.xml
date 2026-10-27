@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ClonexaPro</string>
+    <string name="app_tagline">Multi-Account Isolation &amp; Private Workspace</string>
+    <string name="device_admin_label">ClonexaPro Work Profile Controller</string>
+    <string name="device_admin_description">Enables Android Managed Work Profile provisioning for hardware-backed dual-app data separation.</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Workspace</string>
+    <string name="nav_discovery">App Discovery</string>
+    <string name="nav_private_space">Private Space</string>
+    <string name="nav_architecture">Engine Lab</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="search_apps_hint">Search instances, packages, or tags…</string>
+    <string name="btn_add_apps">Add App Instance</string>
+    <string name="section_active_instances">Managed Workspace Instances</string>
+    <string name="section_target_ecosystem">Target Messaging &amp; Social Compatibility</string>
+    <string name="empty_workspace_title">No Active Instances Configured</string>
+    <string name="empty_workspace_subtitle">Select an installed application from App Discovery to create a managed workspace slot or launch via Android Work Profile isolation.</string>
+
+    <!-- Isolation Tiers -->
+    <string name="tier_c_badge">Tier C • Isolated Profile</string>
+    <string name="tier_b_badge">Tier B • Multi-Task Document</string>
+    <string name="tier_a_badge">Tier A • Workspace Managed</string>
+
+    <!-- Private Space -->
+    <string name="private_space_title">Private Space Vault</string>
+    <string name="private_space_locked_desc">Protected by Android Keystore AES-256-GCM encryption and optional Device Credential authentication.</string>
+    <string name="btn_unlock_vault">Unlock Private Space</string>
+    <string name="btn_setup_pin">Configure Security PIN</string>
+
+    <!-- My IP Address -->
+    <string name="my_ip_title">My IP Address &amp; Geolocation</string>
+    <string name="my_ip_mode_direct">Direct Connection IP</string>
+    <string name="my_ip_mode_proxy">Current Proxy IP</string>
+    <string name="my_ip_approx_location_notice">IP-based geolocation is approximate and may not match your exact physical location.</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "ClonexaPro",
+  "description": "Enterprise-grade Android multiple-account workspace, Work Profile isolation manager, and Private Space security controller.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

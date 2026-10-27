@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Outer cryptographic ring -->
+    <path
+        android:fillColor="#1A00E5FF"
+        android:strokeColor="#6600E5FF"
+        android:strokeWidth="2"
+        android:pathData="M60,12 A48,48 0 1,1 59.9,12 Z" />
+    <!-- Shield silhouette -->
+    <path
+        android:fillColor="#267C4DFF"
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M60,24 L90,36 L90,62 C90,82 77,97 60,104 C43,97 30,82 30,62 L30,36 Z" />
+    <!-- Keyhole core -->
+    <path
+        android:fillColor="#FF00E5FF"
+        android:pathData="M60,50 C55.58,50 52,53.58 52,58 C52,61.1 53.77,63.78 56.35,65.11 L54.5,76 L65.5,76 L63.65,65.11 C66.23,63.78 68,61.1 68,58 C68,53.58 64.42,50 60,50 Z" />
+</vector>

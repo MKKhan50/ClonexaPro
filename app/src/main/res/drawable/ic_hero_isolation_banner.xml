@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="140dp"
+    android:viewportWidth="320"
+    android:viewportHeight="140">
+    <!-- Deep Cyber Background -->
+    <path android:pathData="M0,0h320v140h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="140"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF0D1326" />
+                <item android:offset="0.5" android:color="#FF171F3C" />
+                <item android:offset="1.0" android:color="#FF231942" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Decorative Isometric Grid Lines -->
+    <path
+        android:strokeColor="#2200E5FF"
+        android:strokeWidth="1"
+        android:pathData="M0,110 L320,110 M0,80 L320,80 M0,50 L320,50 M60,0 L60,140 M140,0 L140,140 M220,0 L220,140 M280,0 L280,140" />
+
+    <!-- Secondary Container Box (Violet) -->
+    <path
+        android:fillColor="#337C4DFF"
+        android:strokeColor="#FF7C4DFF"
+        android:strokeWidth="2"
+        android:pathData="M210,24 L286,24 C290.4,24 294,27.6 294,32 L294,94 C294,98.4 290.4,102 286,102 L210,102 C205.6,102 202,98.4 202,94 L202,32 C202,27.6 205.6,24 210,24 Z" />
+
+    <!-- Primary Isolated Container Box (Electric Cyan) -->
+    <path
+        android:fillColor="#3300E5FF"
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M178,42 L254,42 C258.4,42 262,45.6 262,50 L262,112 C262,116.4 258.4,120 254,120 L178,120 C173.6,120 170,116.4 170,112 L170,50 C170,45.6 173.6,42 178,42 Z" />
+
+    <!-- Isolation Bridge Node -->
+    <path
+        android:fillColor="#FF00E5FF"
+        android:pathData="M216,72 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0" />
+    <path
+        android:fillColor="#FF0D1326"
+        android:pathData="M216,66 L221,71 L216,76 L211,71 Z" />
+</vector>
